@@ -9,6 +9,7 @@ h2.contact-header{
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
+    color: var(--main-colour);
 }
 
 div.row{
