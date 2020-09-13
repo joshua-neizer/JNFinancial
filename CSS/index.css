@@ -131,4 +131,14 @@ span.title-screen{
     transform: translate(-50%, -50%);
     left: 50%;
     width: 100px;
+
+    -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+}
+
+.down:hover{
+    filter: invert(70%) sepia(7%) saturate(617%) hue-rotate(5deg) brightness(93%) contrast(87%);
 }
