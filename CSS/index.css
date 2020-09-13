@@ -1,0 +1,131 @@
+:root {
+    --main-colour: #A9A291;  
+    --nav-colour: #b2ab9b;
+    --nav-text: #8a8170;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@font-face {
+    font-family: "FuturaLT Regular";
+    src: url("../assets/Futura LT/FuturaLT.ttf");
+}
+
+@font-face {
+    font-family: "FuturaLT Light";
+    src: url("../assets/Futura LT/FuturaLT-Light.ttf");
+}
+
+@font-face {
+    font-family: "FuturaLT Bold";
+    src: url("../assets/Futura LT/FuturaLT-Bold.ttf");
+}
+
+@font-face {
+    font-family: "FuturaLT Oblique";
+    src: url("../assets/Futura LT/FuturaLT-Oblique.ttf");
+}
+
+body{
+    margin: 0;
+    font-family: "FuturaLT Regular";
+}
+
+div.main-container{
+    margin: auto;
+    width: 100%;
+    height: 3000px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+}
+
+h1 {
+    color: var(--main-colour);
+}
+
+div.title-screen{
+    width: 100%;
+    height: 100vh;
+    background-size: cover !important;
+    margin: 0 auto;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/sample-background.jpg);
+}
+
+div.title-cover{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div.title-container{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 540px;
+    margin: auto;
+    height: 1000px;
+    text-align: center;
+}
+
+#drop{
+    height: 1000px;
+    
+    -webkit-transition: all 3s ease-in-out;
+      -moz-transition:  all 3s ease-in-out;
+       -ms-transition:  all 3s ease-in-out;
+        -o-transition:  all 3s ease-in-out;
+           transition:  all 3s ease-in-out;
+}
+
+img.title-screen{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+span.title-screen{
+    display: block;
+    margin: 0 auto;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    color: #dcd3be;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "FuturaLT Light";
+    font-weight: bold;
+
+    -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+}
+
+.down{
+    position: absolute;
+    bottom: -50px;
+    filter: invert(100%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100px;
+}

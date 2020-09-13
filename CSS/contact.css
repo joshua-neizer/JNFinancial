@@ -1,0 +1,72 @@
+div.email-form{
+    width: 70%;
+    margin: auto;
+    padding-top: 75px;
+}
+
+h2.contact-header{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+div.row{
+    display: flex;
+    height: 150px;
+}
+
+div.spacing-left{
+    padding-left: 100px;
+}
+
+input.contact-email{
+    height: 40px;
+    width: 200px;
+    border-radius: 0.5em;
+    font-family: "FuturaLT Regular" !important;
+    font-size: 16px;
+    color: var(--main-colour);
+}
+
+textarea.comment-box{
+    height: 200px;
+    width: 500px;
+    border-radius: 0.5em;
+    font-family: "FuturaLT Regular" !important;
+    font-size: 16px;
+    color: var(--main-colour);
+    padding: 10px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+}
+
+input.submit{
+    height: 50px;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 0.5em;
+    font-family: "FuturaLT Regular" !important;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-width: 3px;
+    font-weight: bold;
+
+    -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+}
+
+input.submit:hover{
+    color: var(--main-colour);
+    border-color: -internal-light-dark(rgb(195, 195, 195), rgb(118, 118, 118));
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border-width: 3px;
+}

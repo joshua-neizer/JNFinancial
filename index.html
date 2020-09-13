@@ -1,0 +1,237 @@
+<!-- https://drive.google.com/drive/u/1/folders/15wbp6eg5CnmyEPa8g1EcojJFNj8PO9gm -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Your gorgeous description goes here">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./CSS/index.css" rel="stylesheet">
+        <link href="./CSS/navbar.css" rel="stylesheet">
+        <link href="./CSS/financial.css" rel="stylesheet">
+        <link href="./CSS/tools.css" rel="stylesheet">
+        <link href="./CSS/contact.css" rel="stylesheet">
+        <link href="./CSS/about.css" rel="stylesheet">
+        <link rel="icon" href="./assets/CLIPPEDLOGOS-04.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <title>JN Financial</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body onresize="reset()">
+        <div class="header">
+            <div class="header-contact" id="myTopnav">
+                <div class="contact-left">
+                    <i class="fa fa-clock-o"></i>   
+                    <span>Open Hours: Mon - Fri 9.00 AM - 6.00 PM</span>
+                </div>
+                <div class="contact-right">   
+                    <i class="fa fa-envelope-o"></i>
+                    <a class="email" href="mailto: joseph.neizer@jnfinacial.com">&nbsp;joseph.neizer@jnfinacial.com&nbsp;</a>
+                    <i class="fa fa-phone"style="border-left: solid 2px var(--main-colour); padding-left: 15px; margin-left: 15px;"></i>
+                    <span >	&nbsp;(416) - 560 - 9014</span>
+                </div>
+            </div>
+            <hr class="nav-line">
+            <div class="navbar">
+                <div>
+                    <a href="#_home" onclick="changePage('#home')">
+                        <img class="nav-icon" src="./assets/CLIPPEDLOGOS-01.png">
+                    </a>
+                </div>
+                 <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="nav-links responsive">
+                    <!--<a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>-->
+                    <a id="home" class="nav-link" href="#_home" onclick="changePage('#home')">Home</a>
+                    <a id="financial" class="nav-link" href="#_financial" onclick="changePage('#financial')">Financial Services</a>
+                    <a id="tools" class="nav-link" href="#_tools" onclick="changePage('#tools')">Tools</a>
+                    <a id="about" class="nav-link" href="#_about" onclick="changePage('#about')">About Me</a>
+                    <a id="contact" class="nav-link" href="#_contact" onclick="changePage('#contact')">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div id="_home" class="title-screen">
+                <div class="title-cover">
+                    <div id="drop" class="title-container">
+                        <img class="title-screen" src="./assets/CLIPPEDLOGOS-04.png"/>
+                        <span class="title-screen">Helping families anchor their financial future</span>
+                    </div>
+                    <img src="./assets/chevron-down.svg" class="fa fa-chevron-down down"></i>
+                </div>
+            </div>
+            <div id="_financial" class="financial-container">
+                <h2 class="financial-header">Financial Services</h2>
+                <div class="financial-services">
+                    <div class="financial-service">
+                        <h3 class="service-title">Personal Budgeting</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="financial-service">
+                        <h3 class="service-title">Education Planning & Savings</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="financial-service">
+                        <h3 class="service-title">Strategies For Home Ownership</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="financial-service">
+                        <h3 class="service-title">Pre-Retirement Planning</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="financial-service">
+                        <h3 class="service-title">Post-Retirement Strategies</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                        occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="_tools" class="tools-container">
+                <h2 class="tools-header">Tools</h2>
+                <div class="tools-grid">
+                    <a href="https://itools-ioutils.fcac-acfc.gc.ca/BP-PB/budget-planner" target="_blank">
+                        <div class="constrain">
+                            <div class="tool BP"></div>
+                            <h3 class="tool-title">Budget Planner</h3>
+                        </div>
+                    </a>
+                    <a href="https://itools-ioutils.fcac-acfc.gc.ca/FGC-COF/home-accueil-eng.aspx" target="_blank">
+                        <div class="constrain">
+                            <div class="tool FGC"></div>
+                            <h3 class="tool-title">Financial Goal Calculator</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/retirement-income-calculator.html" target="_blank">
+                        <div class="constrain">
+                            <div class="tool RIC"></div>
+                            <h3 class="tool-title">Retirement Income Calculator</h3>
+                        </div>
+                    </a>
+                    <a href="http://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MC-CH-eng.aspx" target="_blank">
+                        <div class="constrain">
+                            <div class="tool MC"></div>
+                            <h3 class="tool-title">Mortgage Calculator</h3>
+                        </div>
+                    </a>
+                    <a href="http://itools-ioutils.fcac-acfc.gc.ca/CCPC-CPCC/CCPC-CPCC-eng.aspx" target="_blank">
+                        <div class="constrain">
+                            <div class="tool CCPC"></div>
+                            <h3 class="tool-title">Credit Card Payment Calculator</h3>
+                        </div>
+                        </a>
+                    <a href="https://www.canada.ca/en/services/finance/tools.html" target="_blank">
+                        <div class="constrain">
+                            <div class="tool OFTC"></div>
+                            <h3 class="tool-title">Other Financial Tools & Calculators</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="_about" class="about-container">
+                <h2 class="about-header">About Myself</h2>
+                <div class="about-body">
+                    <div class="block">
+                        <!--<img class="headshot" src="./assets/headshot.jpg">-->
+                    </div>
+                    <div class="about-information">
+                        <div class="about-bio">
+                            <h2 style="margin-top: 0;">Joseph Neixer</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit 
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                            occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                        <div class="about-ms">
+                            <h3>Mission Statement</h3>
+                            <p style="margin-bottom: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="_contact" class="email-form">
+                <h2 class="contact-header">Contact Email</h2>
+                <div class="row">
+                    <div>
+                        <h2>First Name</h2>
+                        <input class="contact-email" style="text-transform: capitalize;" type="text" id="first-name" name="desc" placeholder="John"/>
+                    </div>
+                    <div class="spacing-left">
+                        <h2>Last Name</h2>
+                        <input class="contact-email" style="text-transform: capitalize;" type="text" id="last-name" name="desc" placeholder="Doe"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <h2>Email</h2>
+                        <input class="contact-email" type="text" id="email" name="desc" placeholder="john.doe@email.com"/>
+                    </div>
+                    <div class="spacing-left">
+                        <h2>Phone Number</h2>
+                        <input class="contact-email" type="text" id="telephone" name="desc" placeholder="(123) - 456 - 7890"/>
+                    </div>
+                </div>
+                <div>
+                    <h2>Comment</h2>
+                    <textarea class="comment-box" type="text" id="comment" name="desc" placeholder=""></textarea>
+                </div>
+                <input class="submit" type="submit" id="submit" name="desc" value="Send"/>
+            </div>
+            <br>
+        </div>
+        <script src="./JavaScript/index.js"></script>
+        <script src="./JavaScript/navbar.js"></script>
+        <script src="./JavaScript/contact.js"></script>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+div.tools-container{
+    width: 100%;
+    padding: 75px 0px;
+    color: var(--main-colour);
+    margin: auto;
+    text-align: center;
+}
+
+h2.tools-header{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+div.tools-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+h3.tool-title{
+    font-size: 35px !important;
+    letter-spacing: 4px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    position: absolute;
+    font-family: "FuturaLT Light";
+    color: white;
+
+    -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+}
+
+div.constrain{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+div.tool{
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: brightness(75%);
+    -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+    
+}
+
+div.constrain:hover div.tool{
+    filter: brightness(75%) blur(2px);
+    opacity: 0.4;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+div.constrain:hover h3.tool-title{
+    color: black;
+    cursor: pointer;
+}
+
+.BP{
+    background-image: url(../assets/annie-spratt-IT6aov1ScW0-unsplash.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.FGC{
+    background-image: url(../assets/Calc.jpg);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.RIC{
+    background-image: url(../assets/retire.jpg);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.MC{
+    background-image: url(../assets/Mortgage.jpg);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.CCPC{
+    background-image: url(../assets/credit.jpg);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.OFTC{
+    background-image: url(../assets/Other.jpg);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}

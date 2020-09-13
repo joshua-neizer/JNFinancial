@@ -1,0 +1,39 @@
+div.financial-container{
+    width: 100%;
+    padding: 75px 0px;
+    background-color: var(--nav-colour);
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+div.financial-services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+div.financial-service{
+    width: 400px;
+    height: 300px;
+    margin: 0px 40px
+}
+
+h2.financial-header{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h3.service-title{
+    text-align: left;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+p.service-text{
+    text-align: justify;
+}
