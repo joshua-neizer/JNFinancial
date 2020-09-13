@@ -6,12 +6,6 @@ div.tools-container{
     text-align: center;
 }
 
-h2.tools-header{
-    font-size: 60px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-}
-
 div.tools-grid{
     display: flex;
     flex-wrap: wrap;

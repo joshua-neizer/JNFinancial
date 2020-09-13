@@ -4,12 +4,8 @@ div.email-form{
     padding-top: 75px;
 }
 
-h2.contact-header{
-    font-size: 60px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
+h1.contact-header{
     text-align: center;
-    color: var(--main-colour);
 }
 
 div.form-container{
@@ -84,4 +80,43 @@ input.submit:hover{
 input:focus, textarea:focus{
     outline: none;
     border: solid 2px var(--nav-colour);
+}
+
+div.contact-information{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px 0 90px 0;
+    position: relative;
+}
+
+h3.contact-title{
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: var(--nav-colour);
+}
+
+i.ct{
+    color: var(--nav-colour);
+    padding-right: 10px;
+}
+
+div.contact-info{
+    display: flex;
+    align-items: center;
+}
+
+.contact-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b2ab9ba1;
+}
+
+h2.consulation{
+    padding-top: 40px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: var(--nav-colour);
 }

@@ -52,6 +52,9 @@ a {
 
 h1 {
     color: var(--main-colour);
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 div.title-screen{
