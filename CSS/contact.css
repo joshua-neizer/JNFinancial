@@ -101,6 +101,7 @@ h3.contact-title{
 i.ct{
     color: var(--nav-colour);
     padding-right: 10px;
+    font-size: 30px;
 }
 
 div.contact-info{
