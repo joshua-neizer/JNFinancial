@@ -90,7 +90,7 @@ function setNavState(x_pos){
 }
 
 function setNavPos(x_pos){
-    switch (setNavState(x_pos)) {
+    switch (setNavState(x_pos + 100)) {
         case 0:
             changePage("#home");
             break;
