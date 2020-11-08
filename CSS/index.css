@@ -142,3 +142,17 @@ span.title-screen{
 .down:hover{
     filter: invert(70%) sepia(7%) saturate(617%) hue-rotate(5deg) brightness(93%) contrast(87%);
 }
+
+div.footer{
+    height: 100px;
+    background: var(--nav-colour);
+    position: relative;
+}
+
+span.footer-copyright{
+    color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 20px;
+}
