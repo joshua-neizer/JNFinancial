@@ -43,6 +43,8 @@ div.nav-links{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: normal;
+    position: absolute;
+    right: 60px;
 }
 
 a.nav-link{
@@ -71,6 +73,22 @@ hr.nav-line{
 
 a.email:hover{
     color: var(--nav-text);
+}
+
+span.book-app{
+    background: #6b6457;
+    padding: 15px;
+
+     -webkit-transition: all .5s ease-in-out;
+      -moz-transition:  all .5s ease-in-out;
+       -ms-transition:  all .5s ease-in-out;
+        -o-transition:  all .5s ease-in-out;
+           transition:  all .5s ease-in-out;
+}
+
+span.book-app:hover{
+    background: #6b6457a7;
+    color: lightgray;
 }
 
 @media screen and (max-width: 1300px) {
@@ -152,11 +170,11 @@ a.email:hover{
 
     .nav-links a:not(:first-child) {
         display: none;
-        -webkit-transition: all 1s ease-in-out !important;
-        -moz-transition: all 1s ease-in-out !important;
-            -ms-transition: all 1s ease-in-out !important;
-            -o-transition: all 1s ease-in-out !important;
-                transition: all 1s ease-in-out !important;
+        -webkit-transition: all .5s ease-in-out !important;
+        -moz-transition: all .5s ease-in-out !important;
+            -ms-transition: all .5s ease-in-out !important;
+            -o-transition: all .5s ease-in-out !important;
+                transition: all .5s ease-in-out !important;
     }
 
     .nav-links a.icon {
@@ -175,11 +193,11 @@ a.email:hover{
         top: 120px;
         background-color: var(--nav-colour);
         /* border-right: solid 10px var(--colour-theme); */
-        -webkit-transition: all .5s ease-in-out, border-right 1s ease-in-out !important;
-        -moz-transition: all .5s ease-in-out, border-right 1s ease-in-out !important;
-            -ms-transition: all .5s ease-in-out, border-right 1s ease-in-out !important;
-            -o-transition: all .5s ease-in-out, border-right 1s ease-in-out !important;
-                transition: all .5s ease-in-out, border-right 1s ease-in-out !important;
+        -webkit-transition: all .5s ease-in-out, border-right .5s ease-in-out !important;
+        -moz-transition: all .5s ease-in-out, border-right .5s ease-in-out !important;
+            -ms-transition: all .5s ease-in-out, border-right .5s ease-in-out !important;
+            -o-transition: all .5s ease-in-out, border-right .5s ease-in-out !important;
+                transition: all .5s ease-in-out, border-right .5s ease-in-out !important;
     }
 
     .nav-links.responsive a.icon {
@@ -200,3 +218,4 @@ a.email:hover{
         margin: auto;
     }
 }
+

@@ -121,3 +121,48 @@ h2.consultation{
     letter-spacing: 3px;
     color: var(--nav-colour);
 }
+
+div.ci-con{
+    position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+    div.email-form{
+        width: 90%;
+    }
+
+    div.form-container{
+        width: 100%;
+    }
+
+    div.ci-con{
+        position: relative;
+        width: 300px;
+        margin: auto;
+    }
+
+    div.contact-information{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    div.row{
+        height: 250px;
+        display: block;
+    }
+
+    div.spacing-left{
+        padding-left: 0;
+    }
+
+    input.contact-email{
+        width: 250px;
+    }
+
+    textarea.comment-box{
+        width: 400px;
+        height: 250px;
+    }
+
+}
