@@ -15,7 +15,6 @@ There are five sections on the website:
 
 <br>
 <br>
-<br>
 
 ### Questions & Concerns
 For any questions and/or concerns about the website, please contact with the subject line <b>JN Financial Website - <i>Insert Comment Here</i></b> to joshua.neizer@gmail.com
