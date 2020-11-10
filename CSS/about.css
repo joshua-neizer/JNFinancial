@@ -48,9 +48,18 @@ div.about-bio{
     top: 0;
 }
 
-div.about-ms{
-    position: absolute;
-    bottom: 0;
+div.about-mvc{
+    margin-top: 20px;
+    width: 1000px;
+    text-align: left;
+}
+
+div.about-blurb{
+    margin: 50px 0px;
+}
+
+h2{
+    color: var(--nav-colour);
 }
 
 @media screen and (max-width: 700px) {
@@ -62,5 +71,13 @@ div.about-ms{
 @media screen and (max-width: 1029px) {
     div.about-information{
         margin-top: 50px;
+    }
+
+    div.about-information{
+        height: 600px;
+    }
+    
+    div.about-mvc{
+        width: 80%;
     }
 }
