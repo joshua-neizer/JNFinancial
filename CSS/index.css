@@ -165,4 +165,8 @@ span.footer-copyright{
     div.title-container{
         width: 100%;
     }
+
+    span.footer-copyright{
+        left: 20px;
+    }
 }
