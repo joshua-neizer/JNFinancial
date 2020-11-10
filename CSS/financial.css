@@ -35,3 +35,10 @@ h3.service-title{
 p.service-text{
     text-align: justify;
 }
+
+
+@media screen and (max-width: 600px){
+    div.financial-service{
+        margin: 50px 40px;
+    }
+}

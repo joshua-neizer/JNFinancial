@@ -92,6 +92,10 @@ span.book-app:hover{
 }
 
 @media screen and (max-width: 1300px) {
+    div.header{
+        height: 80px;
+    }
+
     div.navbar{
         height: 100%
     }
@@ -145,7 +149,7 @@ span.book-app:hover{
         display: block;
         position: absolute;
         right: 20px;
-        top: 45px;
+        top: 33px;
         z-index: 4;
         color: var(--nav-text);  
         -webkit-transition: all .3s ease-in-out !important;
@@ -190,7 +194,7 @@ span.book-app:hover{
         z-index: 3;
         /* height: 275px; */
         position: fixed;
-        top: 120px;
+        top: 100px;
         background-color: var(--nav-colour);
         /* border-right: solid 10px var(--colour-theme); */
         -webkit-transition: all .5s ease-in-out, border-right .5s ease-in-out !important;
@@ -203,7 +207,7 @@ span.book-app:hover{
     .nav-links.responsive a.icon {
         position: absolute;
         right: 0;
-        top: 25px;
+        top: 13px;
         color: grey
     }
 

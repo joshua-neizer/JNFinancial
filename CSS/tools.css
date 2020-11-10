@@ -22,7 +22,7 @@ h3.tool-title{
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 380px;
+    width: 90%;
     position: absolute;
     font-family: "FuturaLT Light";
     color: white;
@@ -99,4 +99,16 @@ div.constrain:hover h3.tool-title{
 .OFTC{
     background-image: url(../assets/Other.jpg);
     /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+
+@media screen and (max-width: 500px){
+    div.constrain{
+        width: 275px;
+        height: 275px;
+    }
+
+    h3.tool-title{
+        font-size: 25px !important;
+    }
 }

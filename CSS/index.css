@@ -156,3 +156,13 @@ span.footer-copyright{
     bottom: 20px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 40px;
+    }
+
+    div.title-container{
+        width: 100%;
+    }
+}

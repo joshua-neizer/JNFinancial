@@ -16,11 +16,15 @@ $('#submit').click(function () {
         return;
     }
 
-    var message =   "Hello Joseph,\n\n" + 
-                    "There has been a message from a new client:\n\n" +
-                    "Name: " + last_name +", " + first_name + "\n" +
-                    "Email: " + email + "\n" +
-                    "Phone Number: " + phone + "\n" +
-                    "Message: " + comment;
+    var message =   "Name: " + last_name + ", " + first_name + "\r\n" +
+                    "Email: " + email + "\r\n" +
+                    "Phone Number: " + phone + "\r\n\r\n" +
+                    comment + "\r\n";
     console.log(message);
+
+    message = encodeURIComponent(message);
+
+    window.open('mailto:jn.cfpservices@gmail.com' + 
+                '?subject=' + 'JN Financial - ' + first_name + ' ' + last_name +
+                '&body='+ message);
 });
