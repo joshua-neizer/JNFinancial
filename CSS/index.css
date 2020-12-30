@@ -166,7 +166,17 @@ span.footer-copyright{
         width: 100%;
     }
 
+    span.title-screen {
+        bottom: -40px;
+    }
+
     span.footer-copyright{
         left: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    div.title-screen {
+        background-position: inherit;
     }
 }

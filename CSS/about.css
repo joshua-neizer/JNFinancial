@@ -81,3 +81,20 @@ h2{
         width: 80%;
     }
 }
+
+@media screen and (max-width: 350px){
+    div.about-information {
+        height: 900px;
+        width: 80%;
+    }
+
+    div.block {
+        width: 300px;
+        height: 390px;
+        margin-right: 0px;
+    }
+
+    img.headshot {
+        width: 260px;
+    }
+}
