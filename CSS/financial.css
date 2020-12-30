@@ -17,8 +17,8 @@ div.financial-services{
 }
 
 div.financial-service{
-    width: 400px;
-    height: 300px;
+    width: auto;
+    height: 200px;
     margin: 0px 40px
 }
 
@@ -29,7 +29,18 @@ h1.financial-header{
 h3.service-title{
     text-align: left;
     font-weight: 100;
-    font-size: 22px;
+    font-size: 35px;
+    color: #f1f1ef;
+
+    -webkit-transition: all .3s ease-in-out;
+      -moz-transition:  all .3s ease-in-out;
+       -ms-transition:  all .3s ease-in-out;
+        -o-transition:  all .3s ease-in-out;
+           transition:  all .3s ease-in-out;
+}
+
+h3.service-title:hover{
+    color: #d6d4ce;
 }
 
 p.service-text{
