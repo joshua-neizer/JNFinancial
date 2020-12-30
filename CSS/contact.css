@@ -64,6 +64,10 @@ input.submit{
     background-color: white;
     color: black;
     border: solid 2px black;
+    
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
 
     -webkit-transition: all .5s ease-in-out;
       -moz-transition:  all .5s ease-in-out;
