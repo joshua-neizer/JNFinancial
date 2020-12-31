@@ -1,4 +1,4 @@
-div.financial-container{
+	div.financial-container{
     width: 100%;
     padding: 75px 0px;
     background-color: var(--nav-colour);
@@ -18,7 +18,7 @@ div.financial-services{
 
 div.financial-service{
     width: auto;
-    height: 200px;
+    height: 150px;
     margin: 0px 40px
 }
 
