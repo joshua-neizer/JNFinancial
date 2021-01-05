@@ -1,7 +1,7 @@
 div.email-form{
     width: 70%;
     margin: auto;
-    padding-top: 75px;
+    padding-top: var(--padding-height);
 }
 
 h1.contact-header{

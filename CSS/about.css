@@ -1,6 +1,6 @@
 div.about-container{
     width: 100%;
-    padding: 75px 0px;
+    padding-top: var(--padding-height);
     color: black;
     margin: auto;
     text-align: center;
@@ -62,11 +62,6 @@ h2{
     color: var(--nav-colour);
 }
 
-@media screen and (max-width: 700px) {
-    div.about-information{
-        width: 400px;
-    }
-}
 
 @media screen and (max-width: 1029px) {
     div.about-information{
@@ -82,9 +77,21 @@ h2{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 989px) {
+    div.block {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    div.about-information{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px){
     div.about-information {
-        height: 900px;
+        height: 825px;
         width: 80%;
     }
 
