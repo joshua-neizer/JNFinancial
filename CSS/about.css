@@ -66,33 +66,22 @@ h2{
 @media screen and (max-width: 1029px) {
     div.about-information{
         margin-top: 50px;
-    }
-
-    div.about-information{
-        height: 600px;
+        height: auto;
+        width: 80%;
     }
     
     div.about-mvc{
         width: 80%;
     }
-}
 
-@media screen and (max-width: 989px) {
     div.block {
         margin-right: 0px;
     }
 }
 
-@media screen and (max-width: 700px) {
-    div.about-information{
-        width: 400px;
-    }
-}
-
 @media screen and (max-width: 450px){
     div.about-information {
-        height: 825px;
-        width: 80%;
+        padding-bottom: 40px;
     }
 
     div.block {
