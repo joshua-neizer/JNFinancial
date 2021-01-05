@@ -22,6 +22,10 @@ div.spacing-left{
     padding-left: 100px;
 }
 
+input {
+    padding-left: 10px;
+}
+
 input.contact-email{
     height: 40px;
     width: 200px;
