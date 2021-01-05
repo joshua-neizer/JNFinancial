@@ -1,6 +1,6 @@
 	div.financial-container{
     width: 100%;
-    padding: 75px 0px;
+    padding-top: var(--padding-height);
     background-color: var(--nav-colour);
     color: white;
     margin: auto;

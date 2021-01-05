@@ -1,7 +1,7 @@
 div.email-form{
     width: 70%;
     margin: auto;
-    padding-top: 75px;
+    padding-top: var(--padding-height);
 }
 
 h1.contact-header{
@@ -20,6 +20,10 @@ div.row{
 
 div.spacing-left{
     padding-left: 100px;
+}
+
+input {
+    padding-left: 10px;
 }
 
 input.contact-email{
