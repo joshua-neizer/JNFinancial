@@ -1,6 +1,6 @@
 div.tools-container{
     width: 100%;
-    padding-top: var(--padding-height);
+    padding: var(--padding-height) 0px 50px 0px;
     color: var(--main-colour);
     margin: auto;
     text-align: center;
