@@ -91,6 +91,14 @@ span.book-app:hover{
     color: lightgray;
 }
 
+.mobile-contact{
+    position: absolute;
+    right: 75px;
+    top: 22px;
+    font-size: 20px;
+    display: none;
+}
+
 @media screen and (max-width: 1300px) {
     div.header{
         height: 80px;
@@ -221,5 +229,14 @@ span.book-app:hover{
         width: 300px;
         margin: auto;
     }
+
+    .mobile-contact{
+        display: flex;
+    }
+
+    .mob{
+        display: none !important;
+    }
+
 }
 

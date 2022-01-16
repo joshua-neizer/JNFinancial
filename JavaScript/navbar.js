@@ -34,7 +34,7 @@ function fixedNav() {
 // Changes the navigation bar to mobile view
 function mobileNav() {
     if (target == 0) {
-        $(".responsive").attr('style', "height: 275px;");
+        $(".responsive").attr('style', "height: 225px;");
         target = 1;
     } else {
         $(".responsive").attr('style', "");
