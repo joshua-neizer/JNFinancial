@@ -34,7 +34,7 @@ function fixedNav() {
 // Changes the navigation bar to mobile view
 function mobileNav() {
     if (target == 0) {
-        $(".responsive").attr('style', "height: 225px;");
+        $(".responsive").attr('style', "height: 265px;");
         target = 1;
     } else {
         $(".responsive").attr('style', "");
@@ -67,6 +67,7 @@ function scrollNavSetup(){
         $("#_financial").height(), 
         $("#_tools").height(), 
         $("#_about").height(),
+        $("#_articles").height(),
         $("#_contact").height()
     ];
 
@@ -76,17 +77,30 @@ function scrollNavSetup(){
 }
 
 function setNavState(x_pos){
-    if (x_pos <= scroll_pos [0]) {
-        return 0;
-    } else if (scroll_pos [0] < x_pos && x_pos <= scroll_pos [1]) {
-        return 1;
-    } else if (scroll_pos [1] < x_pos && x_pos <= scroll_pos [2]) {
-        return 2;
-    } else if (scroll_pos [2] < x_pos && x_pos <= scroll_pos [3]) {
-        return 3;
-    } else {
-        return 4;
+    // if (x_pos <= scroll_pos [0]) {
+    //     return 0;
+    // } else if (scroll_pos [0] < x_pos && x_pos <= scroll_pos [1]) {
+    //     return 1;
+    // } else if (scroll_pos [1] < x_pos && x_pos <= scroll_pos [2]) {
+    //     return 2;
+    // } else if (scroll_pos [2] < x_pos && x_pos <= scroll_pos [3]) {
+    //     return 3;
+    // } else {
+    //     return 4;
+    // }
+
+    var lower_bound = -1;
+    var upper_bound;
+    for (var i = 0; i < scroll_pos.length; i++){
+        upper_bound = scroll_pos [i];
+
+        if (lower_bound < x_pos && x_pos <= upper_bound){
+            return i;
+        }
+        lower_bound = upper_bound;
     }
+
+    return i;
 }
 
 function setNavPos(x_pos){
@@ -104,7 +118,10 @@ function setNavPos(x_pos){
             changePage("#about");
             break;
         case 4:
-            changePage("#contact");
+            changePage("#articles");
+            break;
+        case 5:
+            changePage("#real-contact");
             break;
     }
 }

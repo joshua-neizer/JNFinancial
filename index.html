@@ -9,12 +9,13 @@ individually tailored education, advice and strategies that encourage healthy pe
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./CSS/index.css?v=1.2" rel="stylesheet">
-        <link href="./CSS/navbar.css?v=1.2" rel="stylesheet">
-        <link href="./CSS/financial.css?v=1.2" rel="stylesheet">
+        <link href="./CSS/index.css?v=1.3" rel="stylesheet">
+        <link href="./CSS/navbar.css?v=1.3" rel="stylesheet">
+        <link href="./CSS/financial.css?v=1.3" rel="stylesheet">
         <link href="./CSS/tools.css?v=1.3" rel="stylesheet">
-        <link href="./CSS/contact.css?v=1.1" rel="stylesheet">
-        <link href="./CSS/about.css?v=1.1" rel="stylesheet">
+        <link href="./CSS/contact.css?v=1.3" rel="stylesheet">
+        <link href="./CSS/about.css?v=1.3" rel="stylesheet">
+        <link href="./CSS/articles.css?v=1.3" rel="stylesheet">
         <link rel="icon" href="./assets/CLIPPEDLOGOS-04.png" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
         <title>JN Financial</title>
@@ -53,8 +54,9 @@ individually tailored education, advice and strategies that encourage healthy pe
                     <a id="financial" class="nav-link" href="#_financial" onclick="changePage('#financial')">Financial Services</a>
                     <a id="tools" class="nav-link" href="#_tools" onclick="changePage('#tools')">Tools</a>
                     <a id="about" class="nav-link" href="#_about" onclick="changePage('#about')">About Me</a>
+                    <a id="articles" class="nav-link" href="#_articles" onclick="changePage('#articles')">Coaching Portfolio</a>
                     <a id="contact" class="nav-link mob" href="#_contact" onclick="changePage('#contact')">
-                        <span class="book-app">Contact Now</span>
+                        <span id="real-contact" class="book-app">Contact Now</span>
                     </a>
                 </div>
             </div>
@@ -183,41 +185,51 @@ individually tailored education, advice and strategies that encourage healthy pe
                             <img alt="Joseph Neizer Headshot" class="headshot" src="./assets/headshot.jpg">
                     </div>
                     <div class="about-information">
-                        <h2 style="margin-top: 0;">Joseph Neizer<span style="color: grey; font-weight: 100; padding-left: 10px;">- MBA, CFP, CIM<br/>President</span></h2>
+                        <h2 style="margin-top: 0;">
+                            <div class="certifications">
+                                <div>
+                                    Joseph Neizer<span> - MBA, CPC, CFP, CIM</span>
+                                </div>
+                                <div class="badges">
+                                    <img class="badge" src="./assets/Certifications/PastedGraphic-2.png" alt="International Coach Academy Badge"/>
+                                    <img class="badge" src="./assets/Certifications/ICF_Member.png" alt="International Coaching Federation Bagde"/>
+                                </div>
+                            </div>
+                            <span>President</span>
+                        </h2>
                         <p>
-                            I am passionate about financial literacy and helping Canadian individuals and families develop
-                            financial strategies that enable them to achieve their financial goals and live purpose
-                            filled lives.
+                            As a Certified Professional Coach (CPC) and a Certified Financial Planner (CFP), I am passionate 
+                            about financial literacy and helping individuals and families develop financial strategies that 
+                            enable them to achieve their financial goals and live purpose filled lives.
                         </p>
                         <p>
-                            I recently retired from the financial services sector after over 20 years in the industry. I
-                            have an MBA from the University of Toronto, and I further hold complimentary
-                            designations for Certified Financial Planner (CFP) and Canadian Investment Manager
-                            (CIM). A candidate for the Certified Professional Coach program 
-                            <a href="https://coachcampus.com/" target="_blank" style="color: var(--main-colour)">(CPC)</a>.
+                            I have over 20 years coaching experience in the financial services industry as a financial analyst, 
+                            financial advisor and branch manager.
                         </p>
                         <p>
-                            I’ve worked across the Greater Toronto Area for TD Bank, holding positions from senior
-                            financial analyst, financial advisor to branch manager. Outside of work, I volunteer with
-                            my church as a money coach with Christians Against Poverty organization (CAP) and
-                            as a tax preparer for low-income and new immigrants under CRA’s Community
-                            Volunteer Income Tax Program (CVITP).
+                            I have an MBA from the University of Toronto, and I further hold complimentary designation as a Canadian 
+                            Investment Manager (CIM). I am currently a candidate for the Associate Certified Coach (ACC) designation 
+                            offered by the International Coaching Federation (IFC).
                         </p>
                         <p>
-                            Throughout my career, I have enjoyed engaging with people from diverse cultural and
-                            socio-economic backgrounds. My goal after retirement is to continue to provide financial
-                            literacy advice to my community on a more personal level.
-                            I am a proud husband and father to 4 lovely kids. In my spare time, I enjoy long walks,
-                            playing golf, and spending time with my family.
+                            Outside of work, I volunteer for a number of charitable institutions including churches and other organizations 
+                            such as Christians Against Poverty (CAP) and as a tax preparer for low-income and new immigrants under CRA’s 
+                            Community Volunteer Income Tax Program (CVITP).
+                        </p>
+                        <p>
+                            Throughout my career, I have enjoyed engaging with people from diverse cultural and socio-economic backgrounds. 
+                            My goal is to continue to provide financial literacy advice on a more personal level. I am a proud husband and 
+                            father to 4 lovely young adults. In my spare time, I enjoy long walks, playing golf, and spending time with my 
+                            family.
                         </p>
                     </div>
                     <div class="about-mvc">
                         <div class="about-blurb">
                             <h2>Mission Statement</h2>
                             <p>
-                                To provide individually tailored coaching, education, advice and strategies that encourage healthy
-                                personal finances. I have a particular interest in promoting financial literacy to young
-                                adults, couples, and seniors from new immigrant and minority communities.
+                                To provide individually tailored coaching, education, advice and strategies that encourage healthy personal 
+                                finances. I have a particular interest in promoting financial literacy to new immigrant and minority communities 
+                                especially young adults and seniors.
                             </p>
                         </div>
                         <div class="about-blurb">
@@ -229,8 +241,55 @@ individually tailored education, advice and strategies that encourage healthy pe
                         <div class="about-blurb">
                             <h2>Contact</h2>
                             <p>
-                                If you have any questions regarding your financial plans or think I may be a good fit for
-                                you and your family, please contact me to arrange a consultation.
+                                If you have any questions regarding your financial plans or think I may be a good fit for you and your family, 
+                                please contact me to arrange a consultation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="_articles" class="articles-container">
+                <h1 class="articles-header">Coaching Portfolio</h1>
+                <div class="articles-gallery">
+                    <div class="article">
+                        <a href="https://coachcampus.com/coach-portfolios/coaching-models/etcap/" target="_blank">
+                            <h2>ETCAP – Explore, Tools, Clarify, Action Plans and Implementation</h2>
+                        </a>
+                        <div class="article-date">October 14th, 2022</div>
+                        <div class="article-content">
+                            <a href="https://coachcampus.com/coach-portfolios/coaching-models/etcap/" target="_blank">
+                                <img class="article-image" src="./assets/Articles/Retirement-Coaching-Model-Joseph-Neizer_1200-400x400.jpg">
+                            </a>
+                            <h3>A Coaching Model By Joseph Neizer<br/>Retirement Coach, CANADA</h3>
+                            <p>
+                                Families are assisted by the ETCAP (Explore, Tools, Clarify, Action Plans, and Implementation) 
+                                Coaching Model in securing their financial future. My coaching method aims to improve my clients’ 
+                                financial stability and well-being. What’s more, I want to help families find their own personal 
+                                anchor so they can secure their financial lives in order to bring about financial stability. 
+                                A common misconception about coaching is that it involves a relationship between the coach and 
+                                the client. Coaches assist clients in overcoming obstacles, challenges, or obstacles in order to 
+                                help clients achieve their desired personal, professional, or spiritual goals.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article" style="margin-bottom: 0px">
+                        <a href="https://coachcampus.com/coach-portfolios/research-papers/financial-well-being/" target="_blank">
+                            <h2>Leveraging Coaching to Support Financial Literacy and Financial Well-Being</h2>
+                        </a>
+                        <div class="article-date">October 11th, 2022</div>
+                        <div class="article-content">
+                            <a href="https://coachcampus.com/coach-portfolios/research-papers/financial-well-being/" target="_blank">
+                                <img class="article-image" src="./assets/Articles/Joseph-Neizer_Coaching_Research_Paper_1200-400x400.jpg">
+                            </a>
+                            <h3>A Research Paper By Joseph Neizer<br/>Retirement Coach, CANADA</h3>
+                            <p>
+                                In order to encourage financial literacy and improve the financial well-being of Canadian families, 
+                                this research document will define the basic ideas and principles of coaching. The article cites a 2018 
+                                Financial Survey of Canadians conducted by the Financial Consumer Agency of Canada (FCAC) to support 
+                                its conclusions. For Canadians, having adequate finances contributes to a sense of mental and emotional 
+                                security in daily life. Even while it is not the only factor in people’s anxiety and tension, money plays 
+                                a big part in exacerbating these problems for both individuals and families. This idea is particularly 
+                                evident when there is financial and economic uncertainty, as there is at the moment.
                             </p>
                         </div>
                     </div>
@@ -283,7 +342,6 @@ individually tailored education, advice and strategies that encourage healthy pe
                     <input class="submit" type="submit" id="submit" name="desc" value="Open"/>
                 </div>
             </div>
-            <br>
             <div class="footer">
                 <span class="footer-copyright">JN Consuslting & Financial Planning Services &copy;</span>
             </div>

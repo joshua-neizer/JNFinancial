@@ -68,7 +68,7 @@ div.title-screen{
     background-position: 100% 30%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../assets/home-background.jpg);
+    background-image: url(../assets/home-background-2.jpg);
 }
 
 div.title-cover{
@@ -148,6 +148,7 @@ div.footer{
     height: 100px;
     background: var(--nav-colour);
     position: relative;
+    margin-top: 100px;
 }
 
 span.footer-copyright{
